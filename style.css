@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#board {
+    display: grid;
+    width: 180px;
+    height: 180px;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid black;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
